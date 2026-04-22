@@ -17,7 +17,7 @@ Real PAL PS2 hardware, plugged into a UniFi Cloud Gateway Ultra. A Windows PC ru
 Getting the redirect was easy. UniFi has DNS override under Policy → DNS Records. One A-record:
 
 ```
-gate1.eu.dnas.playstation.org  →  192.168.2.196
+gate1.eu.dnas.playstation.org  →  192.168.*.*
 ```
 
 Done. Now every DNS query from the PS2 for that hostname hits my PC.
